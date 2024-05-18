@@ -22,64 +22,88 @@
         text-align: center;
         display: block;
     }
+
+    .container img {
+        max-width: 100px;
+        max-height: 50px;
+        width: auto;
+        height: auto;
+    }
+
+    .btn-sib {
+        background-color: bisque;
+
+    }
+
+    .link-sem-sublinhado {
+        text-decoration: none;
+        color: black;
+    }
 </style>
 
 <body class="body">
-    <div class="container py-5 shadow-lg text">
+    <br>
+    <div class="container py-5 shadow-lg text background-title">
         <h1>Os Instagram do Sentimento</h1>
     </div>
+
     <br>
-    <div class="container py-5 shadow-lg">
-        <main>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Departamento</th>
-                        <th scope="col">Responsável</th>
-                        <th scope="col">Instagram</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Unijovem</td>
-                        <td>A de Amor</td>
-                        <td><a class="icon-link" href="https://www.instagram.com/unijov">
-                                <svg class="bi" aria-hidden="true">
-                                    <use xlink:href="#box-seam"></use>
-                                </svg>
-                                Instagram
-                            </a></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Embaixadores</td>
-                        <td>B de Baixinho</td>
-                        <td><a class="icon-link" href="https://www.instagram.com/embaixadasibbrasiliateimosa">
-                                <svg class="bi" aria-hidden="true">
-                                    <use xlink:href="#box-seam"></use>
-                                </svg>
-                                Instagram
-                            </a></td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Mensageiras</td>
-                        <td>C de Coração</td>
-                        <td><a class="icon-link" href="https://www.instagram.com/mensageiras_sibbt">
-                                <svg class="bi" aria-hidden="true">
-                                    <use xlink:href="#box-seam"></use>
-                                </svg>
-                                Instagram
-                            </a></td>
-                    </tr>
-                </tbody>
-            </table>
+
+    <main>
+        <div class="container rounded-4 py-4 shadow-lg text">
+
+            <div class="d-grid gap-2">
+                <button class="btn btn-sib rounded-5" type="button">
+                    <a class="icon-link d-grid gap-2 link-sem-sublinhado" target="_blank"
+                        href="https://www.instagram.com/embaixadasibbrasiliateimosa">
+                        <div class="row">
+                            <div class="col-sm-4 container img"><img src="images/logo_embaixada.png" alt="..."
+                                    class="rounded-5">
+                            </div>
+                            <div class="col-sm-8">Departamento de Jovens e Adolescentes - Unijovem</div>
+                        </div>
+                    </a>
+                </button>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-sib rounded-5" type="button">
+                        <a class="icon-link d-grid gap-2 link-sem-sublinhado" target="_blank"
+                            href="https://www.instagram.com/embaixadasibbrasiliateimosa">
+                            <div class="row">
+                                <div class="col-sm-4 container img"><img src="images/logo_embaixada.png" alt="..."
+                                        class="rounded-5">
+                                </div>
+                                <div class="col-sm-8">Embaixadores do Rei</div>
+                            </div>
+                        </a>
+                    </button>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-sib rounded-5" type="button">
+                            <a class="icon-link d-grid gap-2 link-sem-sublinhado" target="_blank"
+                                href="https://www.instagram.com/embaixadasibbrasiliateimosa">
+                                <div class="row">
+                                    <div class="col-sm-4 container img"><img src="images/logo_embaixada.png" alt="..."
+                                            class="rounded-5">
+                                    </div>
+                                    <div class="col-sm-8">Mensageiras do Rei do Rei</div>
+                                </div>
+                            </a>
+                        </button>
 
 
-        </main>
-    </div>
+                        <button class="btn btn-primary" type="button">Button</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <br>
+
+
+
 </body>
 
 </html>
